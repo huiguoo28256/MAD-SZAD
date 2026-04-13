@@ -44,8 +44,7 @@ MAD-SZAD can support the following tasks:
 
 ## Access
 
-Due to privacy, ethics, and clinical data governance requirements, the raw dataset is **not directly downloadable at this stage**.
-
+Due to privacy, ethics, and clinical data governance requirements.
 The dataset page and access information are provided here:
 
 - Dataset page: https://YOUR_GITHUB_USERNAME.github.io/MAD-SZAD/
@@ -58,7 +57,7 @@ This dataset is associated with the following manuscript:
 
 **Causal-Guided Multimodal Diagnosis of Schizophrenia and Alzheimer’s Disease with MADD-CG and MAD-SZAD**
 
-Status: **unpublished manuscript / under preparation**
+Status: ** under preparation**
 
 Paper link: **Coming soon**
 
