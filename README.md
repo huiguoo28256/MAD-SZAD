@@ -63,9 +63,11 @@ This dataset is associated with the following manuscript:
 
 **Causal-Guided Multimodal Diagnosis of Schizophrenia and Alzheimer’s Disease with MADD-CG and MAD-SZAD**
 
-Status: ** under preparation**
+**Authors:** Weiqi Chen, Chuanhui Han
 
-Paper link: **Coming soon**
+**Status:** Unpublished manuscript / under preparation
+
+**Paper link:** Coming soon
 
 ## Citation
 
@@ -78,3 +80,20 @@ If you use MAD-SZAD in your research, please cite the following manuscript:
   journal = {Manuscript in preparation},
   year    = {2026}
 }
+```
+
+## License
+
+This repository page is for academic and informational use only.
+
+The dataset itself is subject to clinical data governance, privacy protection, and usage approval requirements. Please do not redistribute any dataset files without permission.
+
+## Contact
+
+For questions regarding the dataset, collaboration, or access requests, please contact:
+
+- Chuanhui Han: 3075309697@qq.com
+
+## Acknowledgement
+
+MAD-SZAD was constructed with the support of Guangzhou Kangning Hospital and is intended to support research on robust and interpretable multimodal diagnosis for schizophrenia and Alzheimer's disease under real-world clinical interview settings.
