@@ -1,10 +1,8 @@
 # MAD-SZAD
-MAD-SZAD: A Clinical Multimodal Dataset for Schizophrenia and Alzheimer’s Disease Analysis
-# MAD-SZAD
 
 **MAD-SZAD** is a privacy-compliant clinical multimodal dataset for schizophrenia and Alzheimer's disease analysis in real doctor-patient interview scenarios.
 
-It is introduced in the manuscript:
+It is :
 
 **Causal-Guided Multimodal Diagnosis of Schizophrenia and Alzheimer’s Disease with MADD-CG and MAD-SZAD**
 
@@ -42,14 +40,22 @@ MAD-SZAD can support the following tasks:
 - Suitable for causal graph learning and clinical interpretability analysis
 - Designed for cross-disease psychiatric diagnosis rather than patient-vs-control classification only
 
+## Repository
+
+GitHub repository:
+
+- https://github.com/huiguoo28256/MAD-SZAD
+
 ## Access
 
-Due to privacy, ethics, and clinical data governance requirements.
+Due to privacy, ethics, and clinical data governance requirements, the raw dataset is **not directly downloadable at this stage**.
+
 The dataset page and access information are provided here:
 
-- Dataset page: https://YOUR_GITHUB_USERNAME.github.io/MAD-SZAD/
-- Access request: see `request_access.md` in this repository
+- Dataset page: https://huiguoo28256.github.io/MAD-SZAD/
+- Access request: please contact the corresponding author by email
 
+If a processed or de-identified version is released in the future, this section will be updated accordingly.
 
 ## Paper
 
