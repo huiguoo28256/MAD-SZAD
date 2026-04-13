@@ -1,0 +1,232 @@
+
+---
+
+## 2）index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAD-SZAD Dataset</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8fafc;
+      color: #0f172a;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .hero {
+      background: white;
+      padding: 48px 32px;
+      border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      margin-bottom: 24px;
+    }
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      margin-bottom: 24px;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      margin-right: 12px;
+      margin-top: 8px;
+      border-radius: 12px;
+      text-decoration: none;
+      background: #0f172a;
+      color: white;
+    }
+    .btn.secondary {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .stat {
+      background: #f1f5f9;
+      padding: 18px;
+      border-radius: 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    th, td {
+      border: 1px solid #e2e8f0;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background: #f8fafc;
+    }
+    pre {
+      background: #f1f5f9;
+      padding: 16px;
+      border-radius: 12px;
+      overflow-x: auto;
+    }
+    footer {
+      text-align: center;
+      color: #64748b;
+      padding: 20px 0 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>MAD-SZAD</h1>
+      <p><strong>MAD-SZAD</strong> is a privacy-compliant clinical multimodal dataset for schizophrenia and Alzheimer's disease analysis in real doctor-patient interview scenarios.</p>
+      <p>
+        This dataset is introduced in the manuscript:
+        <br />
+        <strong>Causal-Guided Multimodal Diagnosis of Schizophrenia and Alzheimer’s Disease with MADD-CG and MAD-SZAD</strong>
+      </p>
+
+      <a class="btn" href="https://github.com/YOUR_GITHUB_USERNAME/MAD-SZAD">GitHub Repository</a>
+      <a class="btn secondary" href="#access">Request Access</a>
+      <a class="btn secondary" href="#citation">Citation</a>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>Subjects</strong>
+          <p>80 patients</p>
+        </div>
+        <div class="stat">
+          <strong>Groups</strong>
+          <p>40 SZ / 40 AD</p>
+        </div>
+        <div class="stat">
+          <strong>Modalities</strong>
+          <p>Audio / Video / PANSS</p>
+        </div>
+        <div class="stat">
+          <strong>Setting</strong>
+          <p>Clinical interviews</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Overview</h2>
+      <p>
+        Schizophrenia (SZ) and Alzheimer's disease (AD) may exhibit overlapping negative symptoms such as blunted affect, alogia, and social withdrawal, which can increase the risk of misdiagnosis in clinical practice. MAD-SZAD is designed to support research on robust and interpretable multimodal psychiatric diagnosis in real clinical interview settings.
+      </p>
+      <p>
+        The dataset includes audio-video samples from clinically confirmed SZ and AD patients, together with structured PANSS-based symptom information for causal and interpretable modeling.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Supported Tasks</h2>
+      <ul>
+        <li>Schizophrenia vs. Alzheimer's disease classification</li>
+        <li>Multimodal diagnosis under missing modalities</li>
+        <li>Question-slot-level incomplete input analysis</li>
+        <li>Causal-graph-guided multimodal modeling</li>
+        <li>Interpretable psychiatric diagnostic research</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Paper</h2>
+      <p><strong>Title:</strong> Causal-Guided Multimodal Diagnosis of Schizophrenia and Alzheimer’s Disease with MADD-CG and MAD-SZAD</p>
+      <p><strong>Status:</strong> Unpublished manuscript / under preparation</p>
+      <p><strong>Paper link:</strong> Coming soon</p>
+    </section>
+
+    <section class="card">
+      <h2>Dataset Summary</h2>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Dataset Name</td>
+          <td>MAD-SZAD</td>
+        </tr>
+        <tr>
+          <td>Clinical Groups</td>
+          <td>Schizophrenia (SZ), Alzheimer's disease (AD)</td>
+        </tr>
+        <tr>
+          <td>Sample Size</td>
+          <td>80 clinically confirmed patients</td>
+        </tr>
+        <tr>
+          <td>Modalities</td>
+          <td>Audio, Video, PANSS items</td>
+        </tr>
+        <tr>
+          <td>Scenario</td>
+          <td>Real doctor-patient question-answering interviews</td>
+        </tr>
+        <tr>
+          <td>Main Goal</td>
+          <td>Cross-disease multimodal diagnosis with interpretability</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="card" id="access">
+      <h2>Access</h2>
+      <p>
+        Due to privacy, ethics, and clinical governance requirements, the raw dataset is not directly downloadable at this stage.
+      </p>
+      <p>
+        If you are interested in academic use, please contact the corresponding author for access information and data usage conditions.
+      </p>
+      <p>
+        Corresponding author: <strong>email@example.com</strong>
+      </p>
+    </section>
+
+    <section class="card" id="citation">
+      <h2>Citation</h2>
+      <p>If you use MAD-SZAD in your research, please cite the following manuscript:</p>
+      <pre>@article{mad_szad_2026,
+  title   = {Causal-Guided Multimodal Diagnosis of Schizophrenia and Alzheimer’s Disease with MADD-CG and MAD-SZAD},
+  author  = {Author Name1 and Author Name2},
+  journal = {Manuscript in preparation},
+  year    = {2026}
+}</pre>
+    </section>
+
+    <section class="card">
+      <h2>Notes</h2>
+      <ul>
+        <li>This page is for dataset introduction and academic communication.</li>
+        <li>No raw identifiable audio-video data are distributed on this page.</li>
+        <li>Please do not redistribute dataset files without permission.</li>
+      </ul>
+    </section>
+
+    <footer>
+      MAD-SZAD Dataset Page
+    </footer>
+  </div>
+</body>
+</html>
